@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="PROJECT" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-PSDHS93\SQLEXPRESS;Initial Catalog=PROJECT;Integrated Security=True" SettingsObjectName="PROJECT_AKHIR.Properties.Settings" SettingsPropertyName="PROJECTConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.DataBuku" Member="DataBukus">
+    <Type Name="DataBuku">
+      <Column Name="Id_Buku" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Judul_Buku" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Kuantitas" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Kategori" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Penerbit" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="DataBuku_Peminjaman" Member="Peminjamans" ThisKey="Id_Buku" OtherKey="Id_Buku" Type="Peminjaman" />
+      <Association Name="DataBuku_Pengembalian" Member="Pengembalians" ThisKey="Id_Buku" OtherKey="Id_Buku" Type="Pengembalian" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Peminjaman" Member="Peminjamans">
+    <Type Name="Peminjaman">
+      <Column Name="No_Pinjam" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Id_Buku" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Tanggal_Pinjam" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Id_Staff" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Id_Student" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Peminjaman_Student" Member="Students" ThisKey="No_Pinjam" OtherKey="No_Pinjam" Type="Student" />
+      <Association Name="DataBuku_Peminjaman" Member="DataBuku" ThisKey="Id_Buku" OtherKey="Id_Buku" Type="DataBuku" IsForeignKey="true" />
+      <Association Name="Staff_Peminjaman" Member="Staff" ThisKey="Id_Staff" OtherKey="Id_Staff" Type="Staff" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Pengembalian" Member="Pengembalians">
+    <Type Name="Pengembalian">
+      <Column Name="No_Kembali" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Id_Buku" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Id_Staff" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Tanggal_Kembali" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Jumlah_Denda" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Id_Student" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Pengembalian_Student" Member="Students" ThisKey="No_Kembali" OtherKey="No_Kembali" Type="Student" />
+      <Association Name="DataBuku_Pengembalian" Member="DataBuku" ThisKey="Id_Buku" OtherKey="Id_Buku" Type="DataBuku" IsForeignKey="true" />
+      <Association Name="Staff_Pengembalian" Member="Staff" ThisKey="Id_Staff" OtherKey="Id_Staff" Type="Staff" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Staff" Member="Staffs">
+    <Type Name="Staff">
+      <Column Name="Id_Staff" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nama_Staff" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Gender_Staff" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password_staff" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Staff_Peminjaman" Member="Peminjamans" ThisKey="Id_Staff" OtherKey="Id_Staff" Type="Peminjaman" />
+      <Association Name="Staff_Pengembalian" Member="Pengembalians" ThisKey="Id_Staff" OtherKey="Id_Staff" Type="Pengembalian" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Student" Member="Students">
+    <Type Name="Student">
+      <Column Name="Id_Student" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nama_Student" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Alamat_Student" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="No_Hp" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="No_Kembali" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="No_Pinjam" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Pengembalian_Student" Member="Pengembalian" ThisKey="No_Kembali" OtherKey="No_Kembali" Type="Pengembalian" IsForeignKey="true" />
+      <Association Name="Peminjaman_Student" Member="Peminjaman" ThisKey="No_Pinjam" OtherKey="No_Pinjam" Type="Peminjaman" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

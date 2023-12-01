@@ -1,0 +1,44 @@
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\PROJECT AKHIR.exe.config
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\PROJECT AKHIR.exe
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\PROJECT AKHIR.pdb
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT AKHIR.csproj.AssemblyReference.cache
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT_AKHIR.Home.resources
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT_AKHIR.Login.resources
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT_AKHIR.Properties.Resources.resources
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT AKHIR.csproj.GenerateResource.cache
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT AKHIR.csproj.CoreCompileInputs.cache
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT AKHIR.exe
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT AKHIR.pdb
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT_AKHIR.BookData.resources
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT_AKHIR.Peminjaman.resources
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT_AKHIR.Pengembalian.resources
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT_AKHIR.Report.resources
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT_AKHIR.DataBuku2.resources
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT_AKHIR.Peminjaman2.resources
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT_AKHIR.Pengembalian2.resources
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT_AKHIR.Staff2.resources
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT_AKHIR.Student2.resources
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\stdole.dll
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT_AKHIR.LaporanDataBuku.resources
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT AKHIR.csproj.CopyComplete
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT_AKHIR.LaporanDataPeminjam.resources
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT_AKHIR.Notes.resources
+C:\Users\ourwi\source\repos\PROJECT AKHIR\PROJECT AKHIR\obj\Debug\PROJECT_AKHIR.forgetpass.resources
